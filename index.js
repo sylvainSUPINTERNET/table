@@ -5,7 +5,7 @@ const folder = "D:\\Dev\\workspace\\pro\\1PP2_Prod_PMH_4464_Controle_25608_1\\P2
 
 
 
-let result = "String tableContent = '";
+let result = "String tableContent = \"";
 
 fs.readdirSync(folder).map( fileName => {
     return path.join(folder, fileName);
@@ -18,7 +18,7 @@ fs.readdirSync(folder).map( fileName => {
     })
 }); 
  
-result+= "';";
+result+= "\";";
 
 fs.writeFileSync("./table.txt", result);
 console.log(result);
