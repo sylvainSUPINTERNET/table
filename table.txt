@@ -1,4 +1,4 @@
-String tableContent = 'MAT	D4G	DLX	
+String tableContent = "MAT	D4G	DLX	
 0S	06	30	
 0S	06	23	
 0S	05	25	
@@ -52155,4 +52155,4 @@ MAT	DD4	DRG	DE7	DE8	DI4	DLI	DZV	REG
 0S	03	03	02	02	00	04	BZ	AM	
 0S	00	03	00	00	00	00	BX	AM	
 
-';
+";
